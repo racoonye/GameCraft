@@ -1,6 +1,0 @@
-Grootemoeite:death:FALL:1
-LineOfCoke:death:LAVA:2
-LineOfCoke:death:FALL:1
-Squirrel_Council:death:FALL:2
-PlasticHead:death:FALL:1
-Krysik:death:DROWNING:1
