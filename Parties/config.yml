@@ -1,0 +1,28 @@
+#enables or disabled party chat
+partyChatEnabled: true
+
+#enables or disables party PVP
+partyPvpEnabled: false
+
+#enables or disabled party teleport
+partyTpEnabled: true
+
+#FUTURE PLANED VARIABLES BELOW
+
+#the tag that appears before party chat
+#partyChatPrefix: [Party]
+
+#the prefix tag color
+#partyChatPrefixColor: 2
+
+#the actual chat color
+#partyChatColor: a
+
+#the prefix for party messages such as player joined party or left party
+#partyMessagePrefix: [Party Message]
+
+#the color for the party message prefix
+#partyMessagePrefixColor: 2
+
+#the color for the actual party message
+#partyMessageColor: a

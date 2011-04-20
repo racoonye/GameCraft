@@ -1,0 +1,7 @@
+single=Petition
+plural=Petitions
+notify-all-on-close=false
+notify-owner-on-assign=true
+notify-owner-on-unassign=true
+notify-interval-seconds=300
+warp-requires-permission=false
