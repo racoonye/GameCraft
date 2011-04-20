@@ -166,6 +166,7 @@ groups:
             - 'essentials.item'
             - 'essentials.unjail'
             - 'essentials.tppos'
+            - 'essentials.tp'
     Admins:
         default: false
         info:
@@ -195,6 +196,7 @@ users:
     Squirrel_Council:
         group: Moderator
         permissions:
+           - 'essentials.*'
     hellsing0801:
         group: Builders
         permissions:
