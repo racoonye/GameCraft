@@ -47,7 +47,7 @@ heal-cooldown: 60
 default-stack-size: 64
 
 #what to prevent from /i /give
-#e.g item-spawn-blacklist: 46,11,10
+#e.g item-spawn-blacklist: 46,11,10,9,8
 item-spawn-blacklist: 
 
 # Whether or not to reclaim memory on player logout; this is technical, and should only be changed under special circumstances.
@@ -83,7 +83,7 @@ rules:
   - '[3] Never gonna run around and desert you'
   - '[4] Never gonna make you cry'
   - '[5] Never gonna say goodbye'
-  - '[5] Never gonna tell a lie and hurt you
+  - '[6] Never gonna tell a lie and hurt you
 '
   
 # When a command conflicts with another plugin, by default, Essentials will try to force the OTHER plugin to take
@@ -301,7 +301,7 @@ protect:
   # < 255 designates a BLOCK
   # > 255 designates an ITEM (Some blocks can be placed as blocks OR items; lava blocks can be placed by lava buckets, for example.)
   blacklist:
-    placement: 327,326,14,56,46,11,10,9,8
+    placement: 327,326,14,56,46,
     usage: 327,326,325
     
     #prevent people from breaking blocks
