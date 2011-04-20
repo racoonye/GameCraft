@@ -1,0 +1,40 @@
+PorteCoullisante - the easy and realistic portcullis plugin by Captain_Chaos
+
+Installation:
+
+Copy the jar file to your CraftBukkit installation's plugin folder.
+
+Usage:
+
+    * Build the portcullis itself by stacking rows of fences. You can stack fences from the top down by starting with a wall of dirt or some other material, building the top row of fences on top of the wall, removing the topmost row of dirt and replacing it with fences, etc.
+    * Build the wall around it to contain it. Leave enough empty space above the portcullis to allow it to go as high as you want it to go.
+    * Power the portcullis by powering one of the blocks adjacent to it on either side, by attaching a lever or redstone dust. For now, the power has to come from the side.
+    * When the block is powered, the portcullis will start moving upwards, and will keep going until it hits something and can't go any further. It moves slowly (a portcullis is heavy!) and it take a little while to start.
+    * Make sure that when it is in the up position, it is still in contact with a powered block (the same one, or a different one).
+    * When the power goes off, the portcullis will drop down (a lot faster than it went up).
+    * Decorate the gate by building walls in front of and behind the portcullis to cover the empty space and to make it appear the portcullis is moving in a groove. Of course you can make it look any way you want!
+
+Changes:
+
+1.2.1:
+    * Log exceptions instead of crashing the server when a problem occurs.
+
+1.2.0:
+    * Entities and items on top of the portcullis are now moved upwards when the portcullis is hoisted. It will crush you against the ceiling!
+
+1.1.0:
+    * Portcullises are now checked for integrity. That is, they must be rectangular, and have no holes or bits sticking out, otherwise they won't move!
+    * The portcullis will now go through water and lava.
+    * It starts moving a little more quickly (the speed once it's moving is unchanged).
+
+1.0.3:
+    * Make the code more robust in an effort to work around some mysterious bugs.
+
+1.0.2:
+    * Make multiple portcullises work correctly.
+
+1.0.1:
+    * Fixed a bug with portcullises that extended to the west.
+
+1.0.0
+    * Initial release.
