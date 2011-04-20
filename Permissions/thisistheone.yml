@@ -153,7 +153,6 @@ groups:
             - 'essentials.togglejail'
             - 'essentials.jail.exempt'
             - 'essentials.setjail'
-            - 'essentials.deljail'
             - 'essentials.invsee'
             - 'essentials.gc'
             - 'essentials.spawnmob'
@@ -203,10 +202,12 @@ users:
     PlasticHead:
         group: Moderator
         permissions:
-            - '-derp.derp'
-            - '-derp.derp'
-            - '-derp.derp'
-            - '-derp.derp'
+            - '-essentials.banip'
+            - '-essentials.ban'
+            - '-essentials.delwarp'
+            - '-essentials.spawnmob'
+            - '-essentials.give'
+            - '-essentials.item'
     Grootemoeite:
         group: Builders
         permissions:
